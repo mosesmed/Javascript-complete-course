@@ -1,3 +1,5 @@
+'user strict';
+
 /* 
 
 1. If you start a business with $1000 and the business closes down on a loss of $800, what is the business percentage loss
