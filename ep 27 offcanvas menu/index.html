@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    <title>Offcanvas Menu</title>
+</head>
+<body>
+    <div class="container">
+
+        <iconify-icon class="canvasOpen modalone" icon="charm:menu-hamburger"></iconify-icon>
+        <button class="canvasOpen modaltwo">Open</button>
+
+        <div class="pageContent">
+            <h1>javascript beginner course</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum quo perferendis quae. Odio neque minus nesciunt enim officia corporis amet.</p>
+        </div>
+
+        <!--Off anvas-->
+        <div class="offcanvas hidden">
+            <div class="canvasCloseCon">
+                <iconify-icon class="canvasClose" icon="material-symbols:cancel-outline"></iconify-icon>
+            </div>
+
+            <div class="offcanvasContent">
+                <h3>Terms</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde omnis sint nostrum libero corrupti totam beatae sunt, porro nesciunt, cupiditate maiores adipisci. Aspernatur minus rerum consequatur hic qui autem illum?</p>
+
+                <h3>Privacy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde omnis sint nostrum libero corrupti totam beatae sunt, porro nesciunt, cupiditate maiores adipisci. Aspernatur minus rerum consequatur hic qui autem illum?</p>
+
+                <h3>Usage</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde omnis sint nostrum libero corrupti totam beatae sunt, porro nesciunt, cupiditate maiores adipisci. Aspernatur minus rerum consequatur hic qui autem illum?</p>
+            </div>
+        </div>
+        <div class="overlay hidden"></div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
